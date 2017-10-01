@@ -1,0 +1,198 @@
+/*
+Importando la funete
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+/*
+font-family: 'Lato', sans-serif;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+div#abuelo {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(231, 231, 231, 0.6);
+}
+
+div#padre {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #EAEAEA;
+    box-shadow: 0 0 30px black;
+}
+
+/*
+CABEZOTE
+*/
+div.toma {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+div.toma div.logo {
+    width: 50%
+}
+
+div.toma div.logo img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 80%;
+}
+
+/*
+MENU
+*/
+
+div.contenedor-principal{
+    position: relative;
+    height: 190px;
+}
+
+#menu {
+    width: 20%;
+    float: left;
+    background-color: #343D46;
+    color: #BEC3C6;
+    height: 457px;
+}
+
+#menu h4{
+    display: block;
+    padding: 1em;
+    border-bottom:1px solid #82BC00;
+    text-align: center;
+}
+
+#menu ul{
+    display: block;
+    list-style: none;
+}
+
+#menu ul li{
+    display: block;
+    padding: .5em;
+    text-align: center;
+}
+
+#menu ul li:hover{
+    background-color: #5b6b7d;
+    cursor: pointer;
+}
+
+
+#menu ul li a{
+    text-decoration: none;
+    color: #BEC3C6;
+    display: block;
+    width: 100%;
+}
+
+/*
+CONTENIDO
+*/
+#contect {
+    background-color: rgba(231, 231, 231, 0.6);
+    width: 80%;
+    float: right;
+    height: 100%;
+}
+
+#contect h2{
+    display: block;
+    background-color: #82bc00;
+    padding: .5em;
+    text-align: center;
+    color: #343D46;
+}
+
+#contect img{
+    width:100%;
+}
+
+fieldset{
+    padding: 1em;
+    margin:1em 0;
+}
+
+form.miFormulario{
+    margin-top:1em;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+
+div.contenedorFormulario{
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+}
+
+div.contenedorFormulario input[type="number"]{
+    width: 100%;
+    display: block;
+}
+
+div.contenedor-secundario{
+    height: auto;
+
+}
+div.contenedorFormulario input[type="button"]{
+    padding: .5em 1em;
+    border: none;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 1em;
+    display: block;
+    font-size:1em;
+    cursor: pointer;
+    background-color: #cbcbcb;
+    transition: all .5s ease;
+}
+
+div.contenedorFormulario input[type="button"]:hover{
+    background-color: #343D46;
+    color: #9BBDC6;
+    border: white;
+}
+
+
+p.cuadro-texto{
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 1em;
+    border:1px dashed black;
+    text-align: center;
+    font-size: 2em;
+    cursor: copy;
+    transition: all .3s ease;
+}
+
+p.cuadro-texto:hover{
+    color: #82BC00;
+}
+
+/*
+PIE DE PAGINAS
+*/
+div#pie {
+    padding: 1em;
+    position: relative;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #82BC00;
+    margin-top: 216px;
+}
